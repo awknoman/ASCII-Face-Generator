@@ -63,6 +63,7 @@ int main(int argc,char **argv)
                 if(invertImage)
                     brightnessLvl = brightToAscii.size() - 1 - brightnessLvl;
                 
+                //Below if statement was added as an error check. I noticed while debugging that brightnessLvl was > 255 in some cases.
                 if(brightnessLvl >= 0 && brightnessLvl < brightToAscii.size())
                 {
                     cout << brightToAscii[brightnessLvl];
