@@ -5,6 +5,6 @@ The program can be configured to print images stored locally as well as url link
 
 Note: 
 * **fswebcam** should be installed on Unix.`sudo apt-get install fswebcam`
-* **Image** Magick should be installed on the system.
+* **Image Magick** should be installed on the system.
 Use the following code:
 `sudo apt-get install libmagick++-dev`
